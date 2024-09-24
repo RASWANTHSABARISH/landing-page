@@ -1,0 +1,301 @@
+body {
+    background-image:  url('wreek1.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:contain;
+    background-color: #fafafac6;
+  }
+.one{
+color:rgb(11, 30, 69);
+font-size: 10rem;
+vertical-align: middle;
+margin-bottom: -6px;
+text-align: left ;
+padding-left: 100px;
+display:inline-block;
+   
+ 
+}
+
+
+.brand{
+    display: flex ;
+    flex-direction: column;
+    padding:10px;
+    margin-top: -10px;
+
+
+}
+.two{
+    padding-left: 250px;
+    color: rgb(88, 88, 88);
+    display: inline-block;
+    margin-top:-12px;
+    font-size: 1.4rem;
+     
+   
+}
+.logo{
+    padding-left: 20px;
+    padding-top: 15px;
+   
+}
+.navbar{
+    padding-top:4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+}
+
+.navbar .centermenu  a{
+
+    color:rgb(27, 52, 91);
+    margin-right: 25px;
+    transition: all 0.3s ease;
+    border-color: transparent;
+    border-radius: 27px;
+    text-decoration: none;
+     padding: 10px ;
+}
+
+.social a {
+    color:rgb(27, 52, 91) ;
+    margin-right: 25px;
+   
+   
+   
+   
+}
+.navbar img {
+    width: 60px;
+    }
+
+
+
+.navbar .centermenu a:hover,.navbar .centermenu a.active {
+   
+    background:rgb(27, 52, 91);
+    color: #fff;
+   
+    font-weight : 600;
+   
+
+}
+.social a:hover{
+    color:rgb(27, 52, 91);
+    font-size: 21px;
+}
+
+.para{
+   color: rgb(11, 30, 69);
+   font-size: 150%;
+   width: 650px;
+   padding-left: 10px;
+   margin: 30px;
+   margin-top: 10px;
+   margin-left: 25px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: large;
+   text-align: center ;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   line-height: 26px;
+}
+
+
+button{
+
+    width: 200px;
+   
+ padding-top: -10px;  
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid rgb(27, 52, 91);
+background: transparent;
+color:rgb(27, 52, 91);
+cursor: pointer;
+font-size: large;
+font-family: "Poppins", sans-serif;
+position: relative;
+overflow: hidden;
+
+
+}
+
+.but{
+    padding-left: 111px;
+}
+
+.sp{
+    background:rgb(27, 52, 91);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:all 0.4s;
+}
+button:hover .sp{
+    width: 100%;
+    }
+button:hover{
+    border: none;
+    color: #fff;
+}
+
+.media{
+
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: rgb(27, 52, 91);
+
+}
+
+.last a{
+    font-size:30px;
+    color:#c82800a1;
+    margin-left: 30px;
+}
+
+
+.last a:hover{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-shadow: 1px 1px 8px rgb(7, 11, 19);
+   
+}
+
+.branch{
+    position: relative;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+   
+    padding: 0px;
+    margin: 0px;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+
+
+
+.our{
+    color:rgb(27, 52, 91);
+    font-size: 40px;
+    font: normal;
+    margin-top:80px;
+    margin-bottom: 50px;
+   
+}
+
+.places{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+
+
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.pics{
+    width:190px;
+    height:220px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom:-20px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px rgba(27, 52, 91, 0.608);
+}
+
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-left: 90px;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color :rgb(27, 52, 91);
+    margin-bottom: 40px;
+
+}
+
+.msale {
+    color: rgba(230, 66, 1, 0.959);
+    margin-left: 20px;
+    text-align: left;
+    display: flex;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6rem;
+    padding-left: 80px;
+    padding-top: 10px;
+    margin: 30px;
+}
+
+.poffer{
+    text-align: left;
+    display: flex;
+    border-style: hidden;
+    border-color: transparent;
+    width: 530px;
+    height: inherit;
+    margin: 50PX;
+    margin-left: 80PX;
+    margin-top: -150px;
+    font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: large;
+   text-align: center ;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   line-height: 26px;
+}
+
+.wreek3{
+    text-align: right;
+    width:800px;
+    height:500px ;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: hidden;
+    border-color: transparent;
+    margin:30px;
+}
+.knowmore{
+    width: 1400px;
+    color: rgb(27, 52, 91);
+    font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: medium;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+}
